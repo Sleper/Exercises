@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time</title>
+</head>
+
+<body>
+
+	<div id="todaysDate"></div>
+
+	<script>
+		function doDate() {
+		    var str = "";
+		    var now = new Date();
+
+		    str += now.getHours() +":" + now.getMinutes() + ":" + now.getSeconds();
+		    document.getElementById("todaysDate").innerHTML = str;
+		}
+		setInterval(doDate, 1000);
+	</script>
+
+</body>
+</html>
