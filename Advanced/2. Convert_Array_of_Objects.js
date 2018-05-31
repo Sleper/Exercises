@@ -41,7 +41,7 @@ function convertArray(arr){
 	newPets[arr[3].name] = cats;
 	return newPets;
 }
-
+convertArray(pets);
 
 // function covertArray(arr){
 // 	var newPets = {};
